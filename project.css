@@ -1,0 +1,497 @@
+/***********font face***************/
+@font-face {
+    font-family: 'tankfont';
+    src: url('./assets/fonts/MobileSans.eot'); /* IE9 Compat Modes */
+    url('./assets/fonts/MobileSans.woff') format('woff'), /* Pretty Modern Browsers */
+    url('./assets/fonts/MobileSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('./assets/fonts/MobileSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/***********container***************/
+.container{
+    font-family: "tankfont", sans-serif;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+:root{
+    --fontcolor: #5D6471;
+
+}
+
+.main{
+    width: 100%;
+    position: absolute;
+
+}
+.box1{
+    height:60%;
+    top: 0;
+    bottom: 0;
+}
+/***********top box1***************/
+
+
+.box1 .top-part{
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    position: absolute;
+}
+.box1 .top-part #logo{
+    width: 50%;
+    float: left;
+}
+.box1 .top-part #logo img{
+    margin: 3px 0 0 42px;
+    height: 50px;
+    width: 300px;
+}
+.box1 .top-part #menubar{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.box1 .top-part #menubar ul{
+    padding-top:7px;
+    padding-left: 70px;
+}
+
+.top-part #menubar ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.top-part #menubar ul li a{
+    text-decoration:none ;
+    color: #BFC1C6;
+
+}
+/***********middle box1***************/
+
+.box1 #center-box1{
+    position:absolute;
+    top: 52px;
+    width: 100%;
+    height: 80%;
+    background: #65A8D7 url("./assets/images/phone.png") no-repeat 338px 22px;
+    background-size: 800px;
+}
+.box1 #center-box1 #center-box1-header{
+    position: absolute;
+    color: white;
+    height: 20%;
+    width:40%;
+    display: inline-block;
+    padding: 92px 0 0 161px;
+}
+.box1 #center-box1 #center-box1-header h1{
+    font-size: 48px;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+.box1 #center-box1 #center-box1-header h3{
+margin-bottom: 40px;
+}
+.box1 #center-box1 label{
+    display: none;
+}
+.box1 #center-box1 input{
+    margin-top: 24px;
+}
+.box1 #center-box1 input[type=email] {
+    height: 37px;
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 10px;
+}
+
+.box1 #center-box1 input[type=submit]{
+    margin-left: 10px;
+    font-weight: bold;
+    height: 37px;
+    width: 80px;
+    background-color: #77C344;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.box1 #center-box1 p{
+    font-size: 13px;
+}
+.box1 #center-box1 span{
+    font-size: 13px;
+    background-color: #FFCE54;
+    border-radius: 3px;
+    padding: 4px;
+    font-weight: bold;
+}
+/***********footer box1***************/
+#footer-box1{
+    position: relative;
+    margin-top: 480px;
+    background-color: #F8F8F8;
+}
+#footer-box1 ul{
+    width:80%;
+    height: 10%;
+    margin: auto;
+}
+
+#footer-box1 ul li{
+    display:inline-block;
+    margin-right: 0;
+}
+#footer-box1 ul li:hover{
+    background-color: #FFCE54;
+}
+#footer-box1 ul li a div{
+    width: 200px;
+    height: 100px;
+    filter: grayscale(80);
+}
+#footer-box1 ul li a .im1{
+
+    background: url("./assets/images/4.png") no-repeat -74px 2px;
+}
+#footer-box1 ul li a .im2{
+    background: url("./assets/images/8.png") no-repeat -162px -29px;
+}
+#footer-box1 ul li a .im3{
+
+    background: url("./assets/images/3.png") no-repeat -55px -17px;
+}
+#footer-box1 ul li a .im4{
+
+    background: url("./assets/images/sony.png")no-repeat -68px -40px;
+}#footer-box1 ul li a .im5{
+
+     background: url("./assets/images/1.png") no-repeat -111px -29px;
+ }
+ .clearfix{
+     float: none;
+     clear: both;
+ }
+/***********box2***************/
+.box2{
+    color: var(--fontcolor);
+    height:60%;
+    top: 636px;
+    background-image: url("./assets/images/mac.png");
+    background-repeat: no-repeat;
+    background-size: 640px;
+    background-position: right ;
+}
+.box2 h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+.box2 #text2 {
+    position: absolute;
+    width: 36%;
+    height: 584px;
+    left: 100px;
+    top: 100px;
+    padding: 5px 0 0 1px;
+}
+
+.box2 #text2 .head{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 47px;
+    padding-left: 20px;
+
+}
+.box2 #text2  i.fa{
+    height: 40px;
+    width: 40px;
+    color: #65A8D7;
+}
+
+/***********box3***************/
+
+.box3{
+    color: var(--fontcolor);
+    height:60%;
+    top: 1272px;
+    background-color: #F6F6F7;
+    background-image: url("./assets/images/ship.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+
+}
+.first {
+    font-size: 38px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+    padding-left: 380px;
+}
+
+
+.mySlides{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.mySlides h3{
+    font-size: 27px;
+    padding-left: 27px;
+    padding-top: 40px;
+}
+.mySlides p{
+    padding-top: 20px;
+    padding-left:30px;
+    line-height: 27px;
+}
+.mySlides h3 .fa{
+    color: dodgerblue;
+}
+.mySlides {
+    display:none;
+   padding-left: 80px;
+}
+
+.w3-center{
+    text-align: center;
+}
+
+.demo{
+    border-color: transparent;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--fontcolor);
+    margin: 14px;
+}
+.demo:active{
+    background-color: #65A8D7;
+    color: white;
+}
+/***********box4***************/
+.box4{
+    height:50%;
+    top: 1836px;
+    text-align: center;
+}
+.box4 .sec{
+    color: var(--fontcolor);
+    font-size:30px;
+    font-weight: bold;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+.box4 h4{
+    font-size: 17px;
+    color: var(--fontcolor);
+
+}
+.box4 #footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 14%;
+    z-index: 1;
+    background-color: #F9F9F9;
+    border-top:2px solid;
+    border-top-color: #E8E8EA;
+}
+.box4 label{
+    display: none;
+}
+.box4 input[type=email]{
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid darkgray;
+}
+.box4 input[type=submit] {
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    background-color: #77C344;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.box4 #footer ul {
+    float: right;
+    padding-top: 47px;
+    padding-right: 20px;
+}
+.box4 #footer ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box4 #footer ul li a{
+    text-decoration: none;
+    color: #999DA4;
+}
+.box4 #footer img{
+    filter: grayscale(80);
+    margin-left: -200px;
+    height: 90px;
+    width: 240px;
+}
+
+
+
+/***********media query***************/
+
+@media screen and (max-width:800px ) {
+    .box1 .top-part #logo{
+        display: none;
+    }
+    .box1 .top-part #menubar{
+        width: 100%;
+        text-align: left;
+    }
+    .box1 .top-part #menubar ul{
+        padding:4% 10% 10% 10%;
+    }
+    .top-part #menubar ul li{
+        padding: 7px;
+        font-size: small;
+    }
+    .box1 #center-box1 #center-box1-header h1 {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 9px;
+    }
+
+    .box1 #center-box1 #center-box1-header {
+        padding: 76px 0 0 32px;
+    }
+    .box1 #center-box1 {
+        background: #65A8D7 url(./assets/images/phone.png) no-repeat 49px 171px;
+        background-size: 536px;
+    }
+    .box1 #center-box1 input[type=email] {
+        width: 214px;}
+    .box1 #center-box1 input[type=submit] {
+        height: 31px;
+        width: 63px;}
+
+    #footer-box1 ul{
+
+        text-align: center    }
+    #footer-box1 ul li a div{
+        width: 300px;
+        height: 79px;
+    }
+
+
+    #footer-box1 ul li a .im1 {
+        background: url(./assets/images/4.png) no-repeat -46px 2px;
+    }
+    #footer-box1 ul li a .im2 {
+        background: url(./assets/images/8.png) no-repeat -130px -29px;
+    }
+    #footer-box1 ul li a .im3 {
+        background: url(./assets/images/3.png) no-repeat -20px -17px;
+    }
+    #footer-box1 ul li a .im4 {
+        background: url(./assets/images/sony.png)no-repeat -40px -40px;
+    }
+    #footer-box1 ul li a .im5 {
+        background: url(./assets/images/1.png) no-repeat -71px -29px;
+    }
+    .box2 h2 {
+        font-size: 25px;
+        padding-top: 26px;
+    }
+    .box2{
+        text-align: center;
+        height: 77%;
+        top: 947px;
+        background-image: url(./assets/images/mac.png);
+        background-repeat: no-repeat;
+        background-size: 245px;
+    }
+    .box2 #text2 {
+        text-align: justify;
+        width: 55%;
+        height: 586px;
+        left: 45px;
+        top: 57px;
+        padding: 7px 0 0 0px;
+    }
+    .box2 #text2 .head {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 21px;
+        padding-left: 34px;
+    }
+    .box3 {
+        top: 1461px;
+        background-image: url(./assets/images/ship.png);
+    }
+
+    .box4 {
+        top: 2061px;
+        text-align: center;
+    }
+    .box4 input[type=email] {
+        height: 31px;
+        width: 218px;
+
+    }
+    .box4 .sec {
+        font-size: 19px;
+    }
+    .box4 h4{
+        font-size: 11px;
+    }
+    .box4 #footer img {
+    display: none;
+    }
+    .box4 #footer ul {
+        padding: 7% 10% 7% 10% ;
+        text-align: center;
+    }
+
+
+
+}
+/********************************/
+@media screen and (max-width:1277px ) and (min-width:800px ){
+
+    .box1 #center-box1 {
+        background: #65A8D7 url(./assets/images/phone.png) no-repeat 305px 158px;
+        background-size: 560px;
+    }
+    .box2 {
+        color: var(--fontcolor);
+        height: 60%;
+        top: 720px;
+        background-image: url(./assets/images/mac.png);
+        background-repeat: no-repeat;
+        background-size: 472px;
+        background-position: right;
+    }
+    .box3{
+        top: 1525px;
+
+    }
+    .first {
+        font-size: 27px;
+        padding-top: 60px;
+        margin-bottom: 58px;
+        padding-left: 226px;
+    }
+    .box4 {
+        top: 2174px;
+    }
+
+    .box4 #footer img {
+        display: none;
+    }
+    .box4 #footer ul {
+        text-align: center;
+    }
+
+}
